@@ -1,0 +1,1 @@
+web: gunicorn furnitra.wsgi
