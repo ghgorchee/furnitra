@@ -5,15 +5,16 @@
 
 <center>
 
-	<h1>Have Fun</h1><br/><br/>
+	<br/><br/><h1>Have Fun</h1><br/><br/>
 
 	<div class="d-grid gap-2 col-6 mx-auto">
 
-  		<button class="btn btn-info" type="button">99¢ Blueprint</button><br/>
+		<a href="{% url 'blueprint' %}" class="btn btn-warning"><h5>99¢ Blueprint</h5></a><br/>
 
-  		<button class="btn btn-warning" type="button">追股计算器</button><br/>
+  		<a href="{% url 'calc' %}" class="btn btn-info"><h5 style="font-family:黑体" >追股计算器</h5></a><br/>
 
-  		<button class="btn btn-success" type="button">My Style</button>
+  		<a href="{% url 'mystyle' %}" class="btn btn-success"><h5>My Style</h5></a>
+
 	</div>
 </center>
 
